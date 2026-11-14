@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470" font-family="-apple-system,Segoe UI,Noto Sans KR,Malgun Gothic,sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7d8590"/></marker></defs>
+<rect x="1" y="1" width="958" height="468" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="80" y="36" font-size="18" font-weight="700" fill="#e6edf3">Development process</text>
+<text x="80" y="62" font-size="12" font-weight="600" fill="#7d9cc0">Analysis (people + tools)</text>
+<rect x="80" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="175.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">1. Ledger</text><text x="175.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">find where the gap opens</text>
+<path d="M270 104.0H287" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="290" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="385.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">2. Scene samples</text><text x="385.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">random picks, find the cause</text>
+<path d="M480 104.0H497" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="500" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="595.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">3. Share of gap</text><text x="595.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">how much the cause explains</text>
+<path d="M690 104.0H707" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="710" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="805.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">4. One rule</text><text x="805.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">queue it as a patch or flag</text>
+<rect x="60" y="176" width="860" height="146" rx="10" fill="#0f1318" stroke="#3d444d" stroke-dasharray="6 4"/>
+<text x="190" y="200" font-size="12" font-weight="600" fill="#a394c4">SPRT driver (automatic judging)</text>
+<rect x="80" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="175.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Stage 1 · discovery</text><text x="175.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">96 maps, sequential test</text>
+<path d="M270 246.0H287" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="290" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="385.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Confirmation</text><text x="385.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">32 different maps</text>
+<path d="M480 246.0H497" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="500" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="595.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Previous version</text><text x="595.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">play the last adopted bot</text>
+<path d="M690 246.0H707" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="710" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="805.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Three fixed opponents</text><text x="805.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">check there is no harm</text>
+<text x="490" y="306" text-anchor="middle" font-size="12" fill="#c98a8a">A candidate that fails any stage is logged and the next one starts</text>
+<path d="M805.0 136V156H175.0V211" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="710" y="368" width="190" height="64" rx="8" fill="#1a2a22" stroke="#3f6b4f" stroke-width="1.5"/><text x="805.0" y="395" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Adopt · upload to ladder</text><text x="805.0" y="415" text-anchor="middle" font-size="12" fill="#9da7b3">only candidates that pass</text>
+<rect x="360" y="368" width="260" height="64" rx="8" fill="#2a261a" stroke="#7a6a3a" stroke-width="1.5"/><text x="490.0" y="395" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Cumulative check</text><text x="490.0" y="415" text-anchor="middle" font-size="12" fill="#9da7b3">every 3 adoptions · revert on failure</text>
+<rect x="80" y="368" width="210" height="64" rx="8" fill="#1c2128" stroke="#565f69" stroke-width="1.5"/><text x="185.0" y="395" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Ladder match records</text><text x="185.0" y="415" text-anchor="middle" font-size="12" fill="#9da7b3">input for the next analysis</text>
+<path d="M805.0 278V365" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M710 400.0H623" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M360 400.0H293" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M80 400.0H30V104.0H77" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>

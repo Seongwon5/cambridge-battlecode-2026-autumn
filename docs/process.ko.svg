@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470" font-family="-apple-system,Segoe UI,Noto Sans KR,Malgun Gothic,sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7d8590"/></marker></defs>
+<rect x="1" y="1" width="958" height="468" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="80" y="36" font-size="18" font-weight="700" fill="#e6edf3">개발 프로세스</text>
+<text x="80" y="62" font-size="12" font-weight="600" fill="#7d9cc0">분석 (사람 + 도구)</text>
+<rect x="80" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="175.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">1. 장부</text><text x="175.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">격차가 벌어지는 구간 찾기</text>
+<path d="M270 104.0H287" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="290" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="385.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">2. 장면 표본</text><text x="385.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">무작위로 뽑아 원인 찾기</text>
+<path d="M480 104.0H497" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="500" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="595.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">3. 몫 재기</text><text x="595.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">원인이 격차의 얼마인지</text>
+<path d="M690 104.0H707" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="710" y="72" width="190" height="64" rx="8" fill="#1b2430" stroke="#4a6785" stroke-width="1.5"/><text x="805.0" y="99" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">4. 규칙 하나</text><text x="805.0" y="119" text-anchor="middle" font-size="12" fill="#9da7b3">패치나 스위치로 후보 등록</text>
+<rect x="60" y="176" width="860" height="146" rx="10" fill="#0f1318" stroke="#3d444d" stroke-dasharray="6 4"/>
+<text x="190" y="200" font-size="12" font-weight="600" fill="#a394c4">SPRT 드라이버 (자동 판정)</text>
+<rect x="80" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="175.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">1단계 · 발견</text><text x="175.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">맵 96개, 순차 판정</text>
+<path d="M270 246.0H287" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="290" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="385.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">확인</text><text x="385.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">다른 맵 32개</text>
+<path d="M480 246.0H497" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="500" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="595.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">이전 버전 상대</text><text x="595.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">직전 채택 버전과 대결</text>
+<path d="M690 246.0H707" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="710" y="214" width="190" height="64" rx="8" fill="#221f2e" stroke="#6b5b8a" stroke-width="1.5"/><text x="805.0" y="241" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">고정 상대 셋</text><text x="805.0" y="261" text-anchor="middle" font-size="12" fill="#9da7b3">손해가 없는지 확인</text>
+<text x="490" y="306" text-anchor="middle" font-size="12" fill="#c98a8a">어느 단계든 탈락하면 기록하고 다음 후보로</text>
+<path d="M805.0 136V156H175.0V211" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="710" y="368" width="190" height="64" rx="8" fill="#1a2a22" stroke="#3f6b4f" stroke-width="1.5"/><text x="805.0" y="395" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">채택 · 래더 업로드</text><text x="805.0" y="415" text-anchor="middle" font-size="12" fill="#9da7b3">통과한 후보만</text>
+<rect x="360" y="368" width="260" height="64" rx="8" fill="#2a261a" stroke="#7a6a3a" stroke-width="1.5"/><text x="490.0" y="395" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">누적 확인</text><text x="490.0" y="415" text-anchor="middle" font-size="12" fill="#9da7b3">채택 3번마다 · 실패하면 되돌림</text>
+<rect x="80" y="368" width="210" height="64" rx="8" fill="#1c2128" stroke="#565f69" stroke-width="1.5"/><text x="185.0" y="395" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">래더 경기 기록</text><text x="185.0" y="415" text-anchor="middle" font-size="12" fill="#9da7b3">다음 분석의 재료</text>
+<path d="M805.0 278V365" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M710 400.0H623" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M360 400.0H293" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M80 400.0H30V104.0H77" fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>
